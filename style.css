@@ -35,31 +35,47 @@ h1 {
 /* Insira o código abaixo */
 
  .container1 {
-  
+    display: flex;
+    
 }
 
 .container2 {
-  
+    display: flex;
+    justify-content: end;
+    
 }
 
 .container3 {
- 
+    display: flex;
+    justify-content: center;
+
 }
 
 .container4 {
-  
+    display: flex;
+    justify-content: space-between;
+
 }
 .container5 {
-  
+    display: flex;
+    justify-content: space-around;
+
 }
 .container6 {
-  
+    display: flex;
+    justify-content: space-evenly;
+
 } 
 
-.container-exercicio-B{
+.container-exercicioB{
+    display: flex;
+    flex-direction: column-reverse;
 
 }
 
 .container-desafio{
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
 
 }
